@@ -19,7 +19,7 @@ void all_of(vector<int> *b , int (* comp) (int)){
 }
 void download(int t){
     for(int c = 0; c < t; c++)
-       cout << all[c]<<" ";
+       cout << all[c] <<" ";
 }
 int addVector(int s){
    s = s + 2;
